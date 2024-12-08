@@ -2,16 +2,16 @@ import { brandingV, experiencesV, productsV } from "../utils";
 
 const Features = () => {
   return (
-    <section className="w-full h-full bg-primary text-secondary">
+    <section className="w-full h-full bg-primary text-secondary pr-10">
       <div className="screen-max-width h-full">
-        <div className="h-full py-16  flex items-center justify-between">
+        <div className="h-full py-16  flex items-center justify-between ">
           <img src={experiencesV} className=" h-96 w-2/4 " />
-          <div className="font-inter flex flex-col gap-2">
+          <div className="font-inter flex flex-col gap-1">
             <p className="font-light ">
               <span className=" font-bold">WE</span> create ( digital )
             </p>
-            <p className="font-medium text-7xl">Design</p>
-            <div className="flex gap-2 my-4">
+            <p className="font-medium text-6xl">Design</p>
+            <div className="flex gap-2 my-2">
               {[
                 "Web Design",
                 "UI UX Design",
@@ -19,18 +19,21 @@ const Features = () => {
                 "Product",
                 "Immersive Design",
               ].map((text, index) => (
-                <div className="text-primary bg-third px-2 py-1" key={index}>
+                <div
+                  className="text-primary text-sm bg-third px-2 py-1"
+                  key={index}
+                >
                   {text}
                 </div>
               ))}
             </div>
-            <p className="font-medium text-lg">
+            <p className="font-medium text-sm">
               We specialise in creating branding that resonates and connects.
               Our user experience design is focused on delivering seamless
               interactions, while our interface design marries functionality
               with visual appeal.
             </p>
-            <a className="font-medium hover:no-underline underline underline-offset-4 text-lg">
+            <a className="font-medium hover:no-underline underline underline-offset-4 text-sm my-2">
               View Digital Designs{" "}
             </a>
             <div className="flex w-full items-center justify-center gap-2">
@@ -49,12 +52,12 @@ const Features = () => {
         </div>
         <div className="h-full py-16  flex items-center justify-between">
           <img src={productsV} className=" h-96 w-2/4 " />
-          <div className="font-inter flex flex-col gap-2">
+          <div className="font-inter flex flex-col gap-1">
             <p className="font-light ">
               <span className=" font-bold">WE</span> make ( digital )
             </p>
-            <p className="font-medium text-7xl">Development</p>
-            <div className="flex gap-2 my-4">
+            <p className="font-medium text-6xl">Development</p>
+            <div className="flex gap-2 my-2">
               {[
                 "No Code Development",
                 "Web Development",
@@ -62,19 +65,22 @@ const Features = () => {
                 "AR & VR Development",
                 "Product Development",
               ].map((text, index) => (
-                <div className="text-primary bg-third px-2 py-1" key={index}>
+                <div
+                  className="text-primary text-sm bg-third px-2 py-1"
+                  key={index}
+                >
                   {text}
                 </div>
               ))}
             </div>
-            <p className="font-medium text-lg">
+            <p className="font-medium text-sm">
               Our development team excels in delivering a full spectrum of
               digital product creation services, tailored to meet each
               client&apos;s unique needs. We specialise in designing highly
               intuitive and responsive user interfaces, prioritising both
               usability and aesthetic excellence.
             </p>
-            <a className="font-medium hover:no-underline underline underline-offset-4 text-lg">
+            <a className="font-medium hover:no-underline underline underline-offset-4 text-sm my-2">
               view digital experiences{" "}
             </a>
             <div className="flex w-full items-center justify-center gap-2">
@@ -93,12 +99,12 @@ const Features = () => {
         </div>
         <div className="h-full py-16  flex items-center justify-between">
           <img src={brandingV} className=" h-96 w-2/4 " />
-          <div className="font-inter flex flex-col gap-2">
+          <div className="font-inter flex flex-col gap-1  ">
             <p className="font-light ">
               <span className=" font-bold">WE</span> create ( digital )
             </p>
-            <p className="font-medium text-7xl">Content & Strategy</p>
-            <div className="flex gap-2 my-4">
+            <p className="font-medium text-6xl">Content & Strategy</p>
+            <div className="flex gap-2 my-2">
               {[
                 "Photography",
                 "SEO",
@@ -107,12 +113,15 @@ const Features = () => {
                 "Brand Designing",
                 "Brand Strategy",
               ].map((text, index) => (
-                <div className="text-primary bg-third px-2 py-1" key={index}>
+                <div
+                  className="text-primary text-sm bg-third px-2 py-1"
+                  key={index}
+                >
                   {text}
                 </div>
               ))}
             </div>
-            <p className="font-medium text-lg">
+            <p className="font-medium text-sm">
               Brands are ideas that keep growing. We think of them like machine
               learning. When you build a brand, you build in the power to adapt
               and evolve. We create the building blocks: the strategy, symbol,
@@ -121,7 +130,7 @@ const Features = () => {
               sound design, messaging, and tone of voice. But ultimately the
               brand creates itself – in the minds and hearts of the audience.
             </p>
-            <a className="font-medium hover:no-underline underline underline-offset-4 text-lg">
+            <a className="font-medium hover:no-underline underline underline-offset-4 text-sm my-2">
               view digital experiences{" "}
             </a>
             <div className="flex w-full items-center justify-center gap-2">
