@@ -1,4 +1,4 @@
-// import { HeroVideo } from "../utils";
+import { HeroVideo } from "../utils";
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -38,21 +38,14 @@ const Hero = () => {
     <section className="w-full  nav-height bg-primary relative">
       <div className=" w-full flex-center flex-col">
         <video
-          className="pointer-events-none w-[700px]"
+          className="pointer-events-none w-[600px]"
           autoPlay
           muted
           loop
           playsInline={true}
-          key={
-            "https://s3-figma-videos-production-sig.figma.com/video/1374633902059105599/TEAM/9061/9aba/-907d-4c7c-a6e1-2759ec144016?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mcd3xvKy64TBKkmp--wWMJSmZC-eebX5lsJDQhYmBbLHiJ5E5yMQG~lmiXhAR4BZzVLEwVakzkLRyDaB0yq~hWvfi9lhSdQf3cQmvDE44NziCJAJ-tWp1HVDitC44us3NrBLYR~4rdy02pYJ13F-3JHrevWl-A53PuwaOz87klPJWdayzXfwstP-h-kx8QkAjHZslJ~XIHH-GE1UxywI8X5B6MLsC1wY2VxkXpviPnv2IP45Idwy6m1XHcIKTt7FeBY-mT5RoE0jlfK9zj4pGYizwzkgATj3-XFYgBGEjEciKqg-1PPuxoOzCOVOO37SF7ZY1~Esj2IXetJUX5Es~w__"
-          }
+          key={HeroVideo}
         >
-          <source
-            src={
-              "https://s3-figma-videos-production-sig.figma.com/video/1374633902059105599/TEAM/9061/9aba/-907d-4c7c-a6e1-2759ec144016?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mcd3xvKy64TBKkmp--wWMJSmZC-eebX5lsJDQhYmBbLHiJ5E5yMQG~lmiXhAR4BZzVLEwVakzkLRyDaB0yq~hWvfi9lhSdQf3cQmvDE44NziCJAJ-tWp1HVDitC44us3NrBLYR~4rdy02pYJ13F-3JHrevWl-A53PuwaOz87klPJWdayzXfwstP-h-kx8QkAjHZslJ~XIHH-GE1UxywI8X5B6MLsC1wY2VxkXpviPnv2IP45Idwy6m1XHcIKTt7FeBY-mT5RoE0jlfK9zj4pGYizwzkgATj3-XFYgBGEjEciKqg-1PPuxoOzCOVOO37SF7ZY1~Esj2IXetJUX5Es~w__"
-            }
-            type="video/mp4"
-          />
+          <source src={HeroVideo} type="video/mp4" />
         </video>
         <div className="flex-col flex w-full items-center justify-center mt-10">
           <p className="text-2xl font-inter font-medium">

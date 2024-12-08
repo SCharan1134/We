@@ -1,12 +1,11 @@
+import { brandingV, experiencesV, productsV } from "../utils";
+
 const Features = () => {
   return (
-    <section className="w-full bg-primary text-secondary">
-      <div className="screen-max-width">
-        <div className="h-[100vh] py-24  flex items-center justify-between">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/fc50/54ee/b93b1960689b655d9372c430a2d06f41?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MrR6rvJUQP2gscqFB2DulfLRwogCRu0vFZTyGPBUI9ctIZGRe2Ohe28sgPeoIQ39~w~yzGBayB7fLKPkXpCFtfQ6vpcWy9Jr5ma3HovG5D7x0O5abiSNpqTPjsBbD23TYA3UG13irZWWmVeGQAhZjBhV-CDx~ostL~DpWql0CudbQ0bHbcz8pTtET967b9B-DDnXAiGFx7CtOucX~AuJGqfEQq9ozGozeUC4xOqW45Amj~PCwn-xYPPdsH5P7hxCJBuOQjIE46BXUstCeIoUjzVlm~XtsJnI5EfDfHYy1UY3R5i4-V-tDme2-W9xSRRC5MwYImZ3TFErOnArBHYh9g__"
-            className=" h-96 w-2/4 "
-          />
+    <section className="w-full h-full bg-primary text-secondary">
+      <div className="screen-max-width h-full">
+        <div className="h-full py-16  flex items-center justify-between">
+          <img src={experiencesV} className=" h-96 w-2/4 " />
           <div className="font-inter flex flex-col gap-2">
             <p className="font-light ">
               <span className=" font-bold">WE</span> create ( digital )
@@ -48,11 +47,8 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="h-[100vh] py-24  flex items-center justify-between">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/f0de/42e4/888170d1878ab284b97383662e8e9566?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OZJKRmQ3zpZbNlUX36EhPebIdN2NCr6AUPlnd9N1-25L0awhbMg7~iK3SyC45Be8OdJck8WWHzAe9hENCw2eF0DkbN0sC2SBb-T1tbyfVynQvNdULfiwjZAuKL4p-CXxDf6v1GECI6XGAHTi-CJECXUlEantCwtY~z5iHhIkpmN~q2b5i7THl2Eu9HfaU7iQ9D7e8lS0rEhoqjakwkIFZXk9PW40JmnjXKMeBsqURCwzy6xpcro-IJQfDkOUufyu0fbiktlDI0Af6ZROm~LUc~8xjVU9nsnZp17Ws1pdJUmTyRU9I4UsLnWIOFbXB7WzgE7PO1GCjZ2STe21KNDYCg__"
-            className=" h-96 w-2/4 "
-          />
+        <div className="h-full py-16  flex items-center justify-between">
+          <img src={productsV} className=" h-96 w-2/4 " />
           <div className="font-inter flex flex-col gap-2">
             <p className="font-light ">
               <span className=" font-bold">WE</span> make ( digital )
@@ -95,11 +91,8 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="h-[100vh] py-24  flex items-center justify-between">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/fc50/54ee/b93b1960689b655d9372c430a2d06f41?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MrR6rvJUQP2gscqFB2DulfLRwogCRu0vFZTyGPBUI9ctIZGRe2Ohe28sgPeoIQ39~w~yzGBayB7fLKPkXpCFtfQ6vpcWy9Jr5ma3HovG5D7x0O5abiSNpqTPjsBbD23TYA3UG13irZWWmVeGQAhZjBhV-CDx~ostL~DpWql0CudbQ0bHbcz8pTtET967b9B-DDnXAiGFx7CtOucX~AuJGqfEQq9ozGozeUC4xOqW45Amj~PCwn-xYPPdsH5P7hxCJBuOQjIE46BXUstCeIoUjzVlm~XtsJnI5EfDfHYy1UY3R5i4-V-tDme2-W9xSRRC5MwYImZ3TFErOnArBHYh9g__"
-            className=" h-96 w-2/4 "
-          />
+        <div className="h-full py-16  flex items-center justify-between">
+          <img src={brandingV} className=" h-96 w-2/4 " />
           <div className="font-inter flex flex-col gap-2">
             <p className="font-light ">
               <span className=" font-bold">WE</span> create ( digital )
