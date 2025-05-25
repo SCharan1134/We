@@ -1,4 +1,10 @@
-import { brandingV, experiencesV, productsV } from "../utils";
+import {
+  brandingV,
+  experiencesV,
+  productsV,
+  medvarsityV,
+  farmfoodV,
+} from "../utils";
 
 const Features = () => {
   return (
@@ -38,14 +44,14 @@ const Features = () => {
             </a>
             <div className="flex w-full items-center justify-center gap-2">
               <div className="w-full flex flex-col">
-                <div className="bg-gray-400 h-96">.</div>
-                <p className="text-sm mt-5">Experience</p>
-                <p className=" text-xl">Go Audits</p>
+                <img src={medvarsityV} className="h-auto w-full" />
+                <p className="text-sm mt-5">Product Design</p>
+                <p className=" text-xl">Medvarsity</p>
               </div>
               <div className="w-full flex flex-col">
-                <div className="bg-gray-400 h-96">.</div>
-                <p className="text-sm mt-5">Experience</p>
-                <p className=" text-xl">Medvarsity</p>
+                <img src={farmfoodV} className="h-auto w-full" />
+                <p className="text-sm mt-5">Brand Design</p>
+                <p className=" text-xl">FarmFood</p>
               </div>
             </div>
           </div>
@@ -85,13 +91,13 @@ const Features = () => {
             </a>
             <div className="flex w-full items-center justify-center gap-2">
               <div className="w-full flex flex-col">
-                <div className="bg-gray-400 h-96">.</div>
-                <p className="text-sm mt-5">Experience</p>
-                <p className=" text-xl">Go Audits</p>
+                <div className="bg-gray-100 h-96">.</div>
+                <p className="text-sm mt-5">Application Development</p>
+                <p className=" text-xl">ODC</p>
               </div>
               <div className="w-full flex flex-col">
-                <div className="bg-gray-400 h-96">.</div>
-                <p className="text-sm mt-5">Experience</p>
+                <div className="bg-gray-100 h-96">.</div>
+                <p className="text-sm mt-5">Product Development</p>
                 <p className=" text-xl">Medvarsity</p>
               </div>
             </div>
@@ -135,12 +141,12 @@ const Features = () => {
             </a>
             <div className="flex w-full items-center justify-center gap-2">
               <div className="w-full flex flex-col">
-                <div className="bg-gray-400 h-96">.</div>
+                <div className="bg-gray-100 h-96">.</div>
                 <p className="text-sm mt-5">Photography</p>
                 <p className=" text-xl">Nadam Band</p>
               </div>
               <div className="w-full flex flex-col">
-                <div className="bg-gray-400 h-96">.</div>
+                <div className="bg-gray-100 h-96">.</div>
                 <p className="text-sm mt-5">Photography</p>
                 <p className=" text-xl">Band Capricio</p>
               </div>

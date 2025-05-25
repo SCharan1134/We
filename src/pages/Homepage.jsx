@@ -2,6 +2,7 @@ import Features from "../components/Features";
 import Hero from "../components/Hero";
 import Impact from "../components/Impact";
 import Navbar from "../components/Navbar";
+import BrandCollaborations from "../components/brand-collaborations";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <Hero />
       <Impact />
       <Features />
+      <BrandCollaborations />
     </div>
   );
 };
