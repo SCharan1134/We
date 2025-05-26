@@ -4,6 +4,9 @@ import {
   productsV,
   medvarsityV,
   farmfoodV,
+  krishnaV,
+  odcV,
+  bandV,
 } from "../utils";
 
 const Features = () => {
@@ -91,12 +94,12 @@ const Features = () => {
             </a>
             <div className="flex w-full items-center justify-center gap-2">
               <div className="w-full flex flex-col">
-                <div className="bg-gray-100 h-96">.</div>
+                <img src={odcV} className="h-auto w-full" />
                 <p className="text-sm mt-5">Application Development</p>
                 <p className=" text-xl">ODC</p>
               </div>
               <div className="w-full flex flex-col">
-                <div className="bg-gray-100 h-96">.</div>
+                <img src={medvarsityV} className="h-auto w-full" />
                 <p className="text-sm mt-5">Product Development</p>
                 <p className=" text-xl">Medvarsity</p>
               </div>
@@ -141,12 +144,12 @@ const Features = () => {
             </a>
             <div className="flex w-full items-center justify-center gap-2">
               <div className="w-full flex flex-col">
-                <div className="bg-gray-100 h-96">.</div>
+                <img src={krishnaV} className="h-auto w-full" />
                 <p className="text-sm mt-5">Photography</p>
-                <p className=" text-xl">Nadam Band</p>
+                <p className=" text-xl">Krishnapatnam</p>
               </div>
               <div className="w-full flex flex-col">
-                <div className="bg-gray-100 h-96">.</div>
+                <img src={bandV} className="h-auto w-full" />
                 <p className="text-sm mt-5">Photography</p>
                 <p className=" text-xl">Band Capricio</p>
               </div>
